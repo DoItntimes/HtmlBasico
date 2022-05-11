@@ -1,0 +1,30 @@
+ :root{
+     --blanco: #FFFFFF;
+     --oscuro: #212121;
+     --primario: #FFC107;
+ }
+
+ html{
+     font-size: 62.5%; 
+ }
+ body{
+     font-size: 16px;
+ }
+ 
+ 
+ .titulo{
+     text-align: right;
+     color: rgba(62, 134, 134, 0.971);
+     font-size: 3.6rem;
+
+ }
+h1.titulo span{ /*Busca un span dentro de algun titulo, o bien busca el .titulo y luego un span*/
+     font-size: 1.8rem; /*1rem = 11px, por lo tanto 1.8rem=20px*/
+    color: blue;
+}
+
+ .titulo span{ 
+    font-size: 1.8rem; 
+    color: red!important;
+
+}
